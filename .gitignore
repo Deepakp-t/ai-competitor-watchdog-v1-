@@ -54,3 +54,4 @@ Thumbs.db
 # Configuration (keep example, ignore actual)
 config/competitors.yaml
 
+.env
