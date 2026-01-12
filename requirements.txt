@@ -1,0 +1,24 @@
+# Core dependencies
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+pyyaml>=6.0.1
+python-dotenv>=1.0.0
+
+# LLM integration
+openai>=1.3.0
+# Alternative: anthropic>=0.7.0
+
+# Slack integration
+slack-sdk>=3.23.0
+
+# Scheduling
+schedule>=1.2.0
+
+# Database (SQLite is built-in, but we'll use sqlalchemy for better structure)
+sqlalchemy>=2.0.23
+
+# Utilities
+lxml>=4.9.0  # For better HTML parsing with BeautifulSoup
+urllib3>=2.0.0
+tweepy>=4.14.0  # For Twitter API v2
+
